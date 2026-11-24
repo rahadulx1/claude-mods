@@ -6,7 +6,7 @@ Claude Code mods by Rahadul.
 
 | Mod | What it does |
 | --- | --- |
-| [SF Guardian](./sf-guardian) | Salesforce helper: production deploy guard, org badge, live Files sidebar with diffs, compact `sf` output, Apex test tracking, coverage and org limits |
+| [SF Guardian](./sf-guardian) | Salesforce helper: a production guard that detects your orgs, a live Files sidebar that shows code while Claude writes it, deploy and test failures with file and line, validation of changed files, coverage, Code Analyzer, an audit log and `/sfdoctor`. Manual: [sf-guardian/README.md](./sf-guardian/README.md) |
 
 ## Install
 
@@ -18,7 +18,7 @@ echo '{"prod_orgs":"your-prod-alias, admin@yourcompany.com"}' | claude plugin co
 
 Or inside Claude Code: `/plugin marketplace add rahadulx1/claude-mods`, then `/plugin install sf-guardian@rahadul-mods`.
 
-Restart Claude Code, start it from inside your Salesforce project folder, and type `/sffiles`.
+Restart Claude Code, start it from inside your Salesforce project folder, and run `/sfdoctor` to check the setup.
 
 Requires:
 
