@@ -1,0 +1,12 @@
+{
+  "name": "rahadul-mods",
+  "owner": { "name": "Rahadul" },
+  "description": "Claude Code mods by Rahadul, starting with SF Guardian for Salesforce developers",
+  "plugins": [
+    {
+      "name": "sf-guardian",
+      "source": "./sf-guardian",
+      "description": "Salesforce helper for Claude Code: production deploy guard, org badge, live Files sidebar, compact sf output, Apex test tracking, coverage and org limits"
+    }
+  ]
+}
