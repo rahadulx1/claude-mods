@@ -9,7 +9,7 @@ Claude Code mods by Rahadul.
 ## Install
 
 ```bash
-claude plugin marketplace add rahadulx0/claude-mods
+claude plugin marketplace add rahadulx1/claude-mods
 claude plugin install sf-guardian@rahadul-mods
 echo '{"prod_orgs":"your-prod-alias, admin@yourcompany.com"}' | claude plugin configure sf-guardian@rahadul-mods --values-stdin
 ```
